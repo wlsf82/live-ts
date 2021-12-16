@@ -1,0 +1,22 @@
+{
+  "name": "live-ts",
+  "version": "1.0.0",
+  "description": "Sample project to demonstrate the basics of TypeScript.",
+  "main": "index.ts",
+  "scripts": {
+    "cleanup": "rm *.js && rm **/*.js || true",
+    "compile": "tsc index.ts",
+    "cleanup:and:compile": "npm run cleanup && npm run compile",
+    "execute": "node index.js"
+  },
+  "keywords": [
+    "TypeScript",
+    "Talking About Testing",
+    "JavaScript para QAs"
+  ],
+  "author": "Walmyr Filho <walmyr@talkingabouttesting.com> (https://walmyr.dev)",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.5.4"
+  }
+}
